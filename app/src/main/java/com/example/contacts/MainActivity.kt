@@ -208,6 +208,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
             }
+
             Column(
                 modifier = Modifier
                     .background(color = Color.Green),
