@@ -22,7 +22,7 @@ class ContactAdapter(private val listOfDataItems: List<Contact>) :
         val currentItem = listOfDataItems[position]
         holder.name.text = currentItem.textName
         holder.phoneNumber.text = currentItem.textPhoneNumber
-        holder.image.setImageURI(currentItem.profileImage)
+    //    holder.image.setImageURI(currentItem.profileImage)
 
     }
 
